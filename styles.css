@@ -78,6 +78,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 li {
@@ -219,16 +220,18 @@ footer {
 
 .footer-nav-menu {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 #footer-nav {
-    width: 40%;
+    width: 50%;
 }
 
 #copyright {
-    color: var(--periwinkle)
+    color: var(--periwinkle);
+    margin: 20px;
 }
 
 @media screen and (max-width: 800px) {
@@ -245,7 +248,7 @@ footer {
         font-size: 10px;
     }
 
-    nav #footer-menu{
+    nav, #footer-menu{
         width: 80%;
     }
 
