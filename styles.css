@@ -124,7 +124,7 @@ li:hover {
 
 #video-hero {
     min-width: 100%;
-    min-height: 100%;
+    /* min-height: 100%; */
     align-self: baseline;
     z-index: 0;
 }
@@ -170,7 +170,7 @@ li:hover {
 .about-me-container {
     margin:20px;
     width: 80%;
-    max-height: 1000px;
+    max-height: 1200px;
     background: rgba(202, 223, 250, 0.8);
     border-radius: 10px;
     display: flex;
@@ -185,6 +185,12 @@ li:hover {
     box-shadow: 2px 2px 4px black;
     background: rgba(183, 213, 252, 0.8);
     transition: .8s;
+}
+
+#about-me {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px;
 }
 
 .profile-photo-container {
@@ -238,7 +244,7 @@ footer {
     margin: 20px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
 
     h1 {
         font-size: 30px;
@@ -246,6 +252,10 @@ footer {
 
     h2 {
         font-size: 20px;
+    }
+
+    p {
+        font-size: 13px;
     }
 
     nav, #footer-menu{
