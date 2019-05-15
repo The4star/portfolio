@@ -1,0 +1,236 @@
+:root {
+    --maastricht-blue: #091C38;
+    --cerulean-blue: #2B59C3;
+    --periwinkle: #CADFFA;
+    --oxford-blue: #01134E;
+    --airforce-blue: #003392;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: white; */
+    background: linear-gradient(282.26deg, rgba(1, 19, 78, 0.8) -0.78%, rgba(43, 89, 195, 0.8) 100%);
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+p {
+    font-family: 'Rubik', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--periwinkle);
+}
+
+header {
+    position: fixed;
+    z-index: 2;
+    background: rgba(196, 196, 196, 0.2);
+    width: 100%;
+}
+
+.navbar-wrapper {
+    width: 100%;
+    max-height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-wrap {
+    width: 89px;
+    height: 89px;
+    margin: 10px;
+    transition: .8s;
+}
+
+#logo {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+nav {
+    width: 50%;
+}
+
+ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li {
+    padding: .3% 1.2% .3% 1.2%;
+    border-radius: 10px;
+    font-family: 'Nunito', sans-serif;
+    color: var(--periwinkle);
+    font-size: 30px;
+    transition: .8s;
+}
+
+li:hover {
+    background: rgba(160, 160, 160, 0.2);
+    font-size: 32px;
+    transition: .8s;
+    box-shadow: 2px 2px 4px black;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    max-height: 800px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.text-over-video {
+    position: absolute;
+    color: var(--periwinkle);  
+    text-align: center;
+    font-family: 'Noto Sans KR';
+    text-shadow: black 1px 1px;
+    z-index: 2;
+}
+
+#video-hero {
+    min-width: 100%;
+    min-height: 100%;
+    align-self: baseline;
+    z-index: 0;
+}
+
+.socials {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social-logo {
+    margin: 5px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    transition: .4s;
+}
+
+.social-logo:hover {
+    background: rgba(196, 196, 196, 0.2);
+    box-shadow: 2px 2px 4px black;
+    border-radius: 5px;
+    transition: .6s;
+}
+
+.video-colour-overlay {
+    background: linear-gradient(282.26deg, rgba(1, 19, 78, 0.8) -0.78%, rgba(43, 89, 195, 0.6) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-me-container {
+    margin:20px;
+    width: 80%;
+    max-height: 1000px;
+    background: rgba(202, 223, 250, 0.8);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: .8s;
+}
+
+.about-me-container:hover {
+    box-shadow: 2px 2px 4px black;
+    background: rgba(183, 213, 252, 0.8);
+    transition: .8s;
+}
+
+.profile-photo-container {
+    margin: 20px;
+    max-width: 40%;
+    max-height: 80%;
+}
+
+#profile-photo {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.about-me-text-container {
+    margin: 20px;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    nav {
+        width: 80%;
+    }
+
+    li {
+        padding: .3% 1.2% .3% 1.2%;
+        font-size: 15px;
+    }
+
+    .logo-wrap {
+        width: 60px;
+        height: 60px;
+        margin: 5px;
+    }
+
+    .social-logo img {
+       width: 40px;
+       height: 40px;
+    }
+
+}
