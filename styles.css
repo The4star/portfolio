@@ -32,7 +32,7 @@ h2 {
 
 p {
     font-family: 'Rubik', sans-serif;
-    font-size: 18px
+    font-size: 24px
 }
 
 a {
@@ -107,6 +107,10 @@ li:hover {
     align-items: center;
     justify-content: center;
     z-index: 1;
+}
+
+#mobile-hero {
+    display: none;
 }
 
 .text-over-video {
@@ -244,10 +248,6 @@ footer {
         font-size: 20px;
     }
 
-    p {
-        font-size: 10px;
-    }
-
     nav, #footer-menu{
         width: 80%;
     }
@@ -266,6 +266,14 @@ footer {
     .social-logo img {
        width: 40px;
        height: 40px;
+    }
+
+    #video-hero {
+        display: none;
+    }
+
+    #mobile-hero {
+        display: inline;
     }
 
 }
