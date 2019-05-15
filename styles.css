@@ -32,6 +32,7 @@ h2 {
 
 p {
     font-family: 'Rubik', sans-serif;
+    font-size: 18px
 }
 
 a {
@@ -203,6 +204,33 @@ li:hover {
     text-align: center;
 }
 
+footer {
+    max-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: var(--maastricht-blue);
+}
+
+.footer-social-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footer-nav {
+    width: 40%;
+}
+
+#copyright {
+    color: var(--periwinkle)
+}
+
 @media screen and (max-width: 800px) {
 
     h1 {
@@ -213,7 +241,11 @@ li:hover {
         font-size: 20px;
     }
 
-    nav {
+    p {
+        font-size: 10px;
+    }
+
+    nav #footer-menu{
         width: 80%;
     }
 
