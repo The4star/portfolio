@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./styles.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito|Roboto|Rubik" rel="stylesheet">
-    <title>Clinton Forster Portfolio</title>
+    <title>Contact Me</title>
 </head>
 <body>
     <header>
@@ -29,8 +29,8 @@
       <video id="video-hero" src="./video/portfolio_video.mp4" autoplay muted loop></video>
       <img id="mobile-hero" src="./img/torres_del_paine_national_park.jpg" alt="torres_del_paine_national_park_towers">
       <div class="text-over-video">
-        <h1>Clinton Forster</h1>
-        <h2>Content Creator | Full Stack Developer</h2>
+        <h1>Contact Me</h1>
+        <!-- <h2>Content Creator | Full Stack Developer</h2> -->
         <div class="socials">
           <div class="social-logo">
             <a href="https://www.facebook.com/clintonforster" target="_blank"><img src="./img/icons/icons8-facebook-50.png" alt="facebook-logo"></a>
@@ -48,75 +48,39 @@
       </div>
     </div>
     <div class="main-container">
-      <div class="about-me-container">
-        <div class="profile-photo-container">
-          <img id="profile-photo" src="./img/clinton_profile_photo.jpg" alt="clinton-profile">
+            <h2 id="thanks">If you'd like to get in touch with me, please send me a message. Thanks for visiting!</h2>
+        <div class="form">
+            <form action="./submitted.php" method="POST">
+                <section class="first-name">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" name="first-name" id="first-name">
+                </section>
+                <section class="last-name">
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" name="last-name" id="last-name">
+                </section>
+                <section class="email">
+                    <label for="last-name">Email:</label>
+                    <input type="text" name="email" id="email">
+                </section>
+                <section class="contact-reason">
+                    <label for="contact-reason">Contact Reason:</label>
+                    <select name="contact-reason" id="contact-reason">
+                        <option value="general">General</option>
+                        <option value="services">Interested in your services</option>
+                        <option value="quote">I would like to request a quote</option>
+                        <option value="other">Other</option>
+                    </select>
+                </section>
+                <section class="message">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="3" cols="40"></textarea>
+                </section>
+                <section class="submission">
+                    <input id="submission" type="submit" value="Submit">
+                </section>
+            </form>
         </div>
-        <div class="about-me-text-container">
-          <h2 id="about-me">About Me</h2>
-          <p>Lorem Ipsum is simply yummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        </div>
-      </div>
-      <h1 id="periwinkle-h1">Current Skills</h1>
-      <div class="skills-container" id="skills">
-        <div class="skill">
-        <img src="./img/logos/html-5.png" alt="html_logo">
-        </div>
-        <div class="skill">
-            <img src="./img/logos/css3.png" alt="css_logo">
-        </div>
-        <div class="skill">
-            <img src="./img/logos/ruby.png" alt="ruby_logo">
-        </div>
-        <div class="skill">
-          <img src="./img/logos/git.png" alt="git_logo">
-        </div>
-        <div class="skill">
-            <img src="./img/logos/wordpress.png" alt="wordpress_logo">
-        </div>
-        <div class="skill">
-            <img src="./img/logos/photoshop-cc.png" alt="photoshop_logo">
-        </div>
-        <div class="skill">
-            <img src="./img/logos/indesign-cc.png" alt="indesign_logo">
-        </div>
-        <div class="skill">
-          <img src="./img/logos/premiere-cc.png" alt="premiere_logo">
-        </div>
-        <div class="skill">
-            <img src="./img/logos/protools.png" alt="protools_logo">
-          </div>
-          <div class="skill">
-              <img src="./img/logos/cubase_logo.png" alt="cubase_logo">
-            </div>
-      </div>
-      <h1 id="periwinkle-h1">Skills Coming Soon</h1>
-      <div class="skills-container">
-        <div class="skill">
-            <img src="./img/logos/rails-1.png" alt="rails_logo">
-        </div>
-        <div class="skill">
-        <img src="./img/logos/javascript-4.png" alt="javascript_logo">
-        </div>
-        <div class="skill">
-            <img src="./img/logos/nodejs.png" alt="nodejs_logo">
-        </div>
-        <div class="skill">
-            <img src="./img/logos/mongodb.png" alt="mongodb_logo">
-        </div>
-        <div class="skill">
-          <img src="./img/logos/mongoose.png" alt="mongoose_logo">
-        </div>
-        <div class="skill">
-            <img src="./img/logos/react.png" alt="react_logo">
-        </div>
-        <div class="skill">
-            <img src="./img/logos/redux.png" alt="redux_logo">
-        </div>
-        <div class="skill">
-          <img src="./img/logos/python-5.png" alt="python_logo">
-        </div>
-      </div>
     </div>
     <footer>
       <div class="footer-social-menu">
