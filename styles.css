@@ -159,7 +159,7 @@ li:hover {
     height: 100%
 }
 
-.main-container {
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -276,6 +276,13 @@ footer {
 
 /* Contact Me Page */
 
+#hero {
+    display: inline;
+    width: 100%;
+    min-height: 400px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
 #thanks {
     color: var(--periwinkle);
     margin: 20px;
@@ -331,6 +338,107 @@ textarea {
     vertical-align: middle;
 }
 
+label {
+    vertical-align: middle;
+}
+
+/* Portfolio Page */
+
+#portfolio-menu {
+    margin: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+input[type=checkbox] {
+    display: none;
+  }
+
+  input[type=checkbox] ~ label {
+    margin: 20px;
+    border-radius: 10px;
+    padding: .3% 1.2% .3% 1.2%;
+    background: rgba(160, 160, 160, 0.2);
+    font-size: 24px;
+    transition: .8s;
+    white-space: nowrap;
+    color: var(--periwinkle);
+    font-family: 'Nunito', sans-serif;
+  }
+
+  input[type=checkbox] ~ label:hover {
+    margin: 20px;
+    background: rgba(160, 160, 160, 0.2);
+    font-size: 26px;
+    box-shadow: 2px 2px 4px black;
+    transition: .8s;
+  }
+
+  #development:checked ~ label ~ .development-grid { 
+    display: grid;
+  }
+
+  #graphics:checked ~ label ~ .graphics-grid { 
+    display: grid;
+  }
+
+  #articles:checked ~ label ~ .articles-grid { 
+    display: grid;
+  }
+
+  #videos:checked ~ label ~ .videos-grid { 
+    display: grid;
+  }
+
+  #music:checked ~ label ~ .music-grid { 
+    display: grid;
+  }
+
+.development-grid, .graphics-grid, .articles-grid, .videos-grid, .music-grid  {
+    width: 80%;
+    display: none;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 50px;
+    padding: 20px;
+    transition: .8s;
+}
+
+.display-item {
+    padding: 20px;
+    background: rgba(202, 223, 250, 0.8);
+    border-radius: 10px;
+    color: var(--maastricht-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.display-item:hover {
+    box-shadow: 2px 2px 4px black;
+    background: rgba(190, 218, 255, 0.8);
+    transition: .8s;
+}
+
+.display-item img {
+    width: 80%;
+    border-radius: 10px;
+    height: auto;
+    margin: 20px;
+}
+
+.display-item p {
+    color: var(--maastricht-blue);
+    margin: 5px;
+    padding: 5px;
+
+}
 @media screen and (max-width: 850px) {
 
     h1 {
@@ -379,6 +487,39 @@ textarea {
         min-height: 400px;
         object-fit: cover;
         object-position: 50% 50%;
+    }
+
+    /* Contact Page */
+
+    #first-name, #last-name, #email, #contact-reason {
+        width: 230px;
+        font-size: 15px;
+        margin: 20px;
+    }
+
+    #submission {
+        width: 260px;
+        font-size: 15px;
+        margin: 20px;
+    }
+
+    #message{
+        width: 250px;
+        font-size: 15px;
+        margin: 20px;
+    }
+    label {
+        font-size: 24px;
+        vertical-align: top;
+    }
+
+    /* Portfolio Page */
+
+    .portfolio-item {
+        margin: 20px;
+        background: rgba(160, 160, 160, 0.2);
+        font-size: 15px;
+        transition: .8s;
     }
 
 }
