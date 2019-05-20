@@ -354,11 +354,11 @@ label {
     flex-wrap: wrap;
 }
 
-input[type=checkbox] {
+input[type=radio] {
     display: none;
   }
 
-  input[type=checkbox] ~ label {
+  input[type=radio] ~ label {
     margin: 20px;
     border-radius: 10px;
     padding: .3% 1.2% .3% 1.2%;
@@ -370,8 +370,9 @@ input[type=checkbox] {
     font-family: 'Nunito', sans-serif;
   }
 
-  input[type=checkbox] ~ label:hover {
+  input[type=radio] ~ label:hover {
     margin: 20px;
+    cursor: pointer;
     background: rgba(160, 160, 160, 0.2);
     font-size: 26px;
     box-shadow: 2px 2px 4px black;
@@ -380,6 +381,10 @@ input[type=checkbox] {
 
   #development:checked ~ label ~ .development-grid { 
     display: grid;
+  }
+
+  #development::after ~ label ~ .development-grid { 
+    animation: disappear 5s;
   }
 
   #graphics:checked ~ label ~ .graphics-grid { 
@@ -399,13 +404,31 @@ input[type=checkbox] {
   }
 
 .development-grid, .graphics-grid, .articles-grid, .videos-grid, .music-grid  {
-    width: 80%;
+    width: 100%;
     display: none;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 50px;
     padding: 20px;
     animation: appear 2s;
+    transition: .8s;
+}
+
+button {
+    color:  var(--periwinkle);
+    background-color: var(--airforce-blue);
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: .8s;
+}
+
+button:hover {
+    box-shadow: 1px 1px 4px black;
     transition: .8s;
 }
 
@@ -541,6 +564,11 @@ input[type=checkbox] {
         background: rgba(160, 160, 160, 0.2);
         font-size: 15px;
         transition: .8s;
+    }
+
+    button {
+        font-size: 13px;
+         
     }
 
 }
