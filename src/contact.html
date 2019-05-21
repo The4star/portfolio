@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Roboto|Rubik" rel="stylesheet">
+    <title>Contact Me</title>
+</head>
+<body>
+    <header>
+      <div class="navbar-wrapper">
+        <div class="logo-wrap">
+          <img id="logo" src="./logo/logo_small.png" alt="clinton_forster_logo">
+        </div>
+        <nav>
+          <ul>
+            <li><a href="./index.html">Main</a></li>
+            <li><a href="./#skills">Skills</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="video-container">
+      <div class="video-colour-overlay"></div>
+      <img id="hero" src="./img/contact.jpg" alt="contact_me">
+      <div class="text-over-video">
+        <h1>Contact Me</h1>
+        <div class="socials">
+          <div class="social-logo">
+            <a href="https://www.facebook.com/clintonforster" target="_blank"><img src="./img/icons/icons8-facebook-50.png" alt="facebook-logo"></a>
+          </div>
+          <div class="social-logo">
+            <a href="https://www.linkedin.com/in/clinton-forster/" target="_blank"><img src="./img/icons/icons8-linkedin-50.png" alt="linked-in-logo"></a>
+          </div>
+          <div class="social-logo">
+            <a href="https://github.com/The4star" target="_blank"><img src="./img/icons/icons8-github-filled-50.png" alt="github-logo"></a>
+          </div>
+          <div class="social-logo">
+            <a href="https://codepen.io/The4star/" target="_blank"><img src="./img/icons/icons8-codepen-50.png" alt="codepen-logo"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main>
+            <h2 id="thanks">If you'd like to get in touch with me, please send me a message. Thanks for visiting!</h2>
+        <div class="form">
+            <form action="./submitted.php" method="POST">
+                <section class="first-name">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" name="first-name" id="first-name">
+                </section>
+                <section class="last-name">
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" name="last-name" id="last-name">
+                </section>
+                <section class="email">
+                    <label for="last-name">Email:</label>
+                    <input type="text" name="email" id="email">
+                </section>
+                <section class="contact-reason">
+                    <label for="contact-reason">Contact Reason:</label>
+                    <select name="contact-reason" id="contact-reason">
+                        <option value="general">General</option>
+                        <option value="services">Interested in your services</option>
+                        <option value="quote">I would like to request a quote</option>
+                        <option value="other">Other</option>
+                    </select>
+                </section>
+                <section class="message">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="3" cols="40"></textarea>
+                </section>
+                <section class="submission">
+                    <input id="submission" type="submit" value="Submit">
+                </section>
+            </form>
+        </div>
+    </main>
+    <footer>
+      <div class="footer-social-menu">
+          <div class="social-logo">
+            <a href="https://www.facebook.com/clintonforster" target="_blank"><img src="./img/icons/icons8-facebook-50.png" alt="facebook-logo"></a>
+          </div>
+          <div class="social-logo">
+            <a href="https://www.linkedin.com/in/clinton-forster/" target="_blank"><img src="./img/icons/icons8-linkedin-50.png" alt="linked-in-logo"></a>
+          </div>
+          <div class="social-logo">
+            <a href="https://github.com/The4star" target="_blank"><img src="./img/icons/icons8-github-filled-50.png" alt="github-logo"></a>
+          </div>
+          <div class="social-logo">
+            <a href="https://codepen.io/The4star/" target="_blank"><img src="./img/icons/icons8-codepen-50.png" alt="codepen-logo"></a>
+          </div>
+        </div>
+      <div class="footer-nav-menu">
+        <div id="footer-nav">
+          <ul>
+            <li><a href="./index.html">Main</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="./#skills">Skills</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <p id="copyright"> &copy; Clinton Forster 2019</p>
+      </div>
+    </footer>
+</body>
+</html>

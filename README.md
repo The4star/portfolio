@@ -1,7 +1,7 @@
 # Portfolio Website
 
 ## Created By
-|[![Clinton Forster](./img/clinton_guitar.jpg)]
+|[![Clinton Forster](./docs/clinton_guitar.jpg)]
 https://github.com/The4Star 
 |-----------|
 | Clinton Forster | 
@@ -28,29 +28,29 @@ Main page features a background video with an overlay colour
 #Sitemap
 The Sitemap is relatively simple as all the portfolio content appears on the same page if selected:
 
-![Sitemap](./img/portfolio_sitemap.png)
+![Sitemap](./docs/portfolio_sitemap.png)
 
 ## Screenshots 
 
 The main page of the site including menu and video background:
 
-![Mainpage](./img/main_page.JPG)
+![Mainpage](./docs/main_page.JPG)
 
 The skills section of the website made in grid:
 
-![Skills Section](./img/skills_section.JPG)
+![Skills Section](./docs/skills_section.JPG)
 
 The Portfolio Selector made of of Radio buttons which make the selected content appear with an animation:
 
-![Portfolio selector](./img/portfolio_selector.JPG)
+![Portfolio selector](./docs/portfolio_selector.JPG)
 
 The Contact Form:
 
-![Contact Form](./img/contact_form.JPG)
+![Contact Form](./docs/contact_form.JPG)
 
 Footer:
 
-![Footer](./img/footer.JPG)
+![Footer](./docs/footer.JPG)
 
 ## Target Audience
 
@@ -64,15 +64,15 @@ HTML & CSS are the only languages used to make this site meaning I had to be cre
 
 I began the process of making my design by first choosing the colours: 
 
-![Colour palette](./colour_palette.png)
+![Colour palette](./docs/colour_palette.png)
 
 I then chose the fonts:
 
-![Font Selection](./img/fonts.JPG)
+![Font Selection](./docs/fonts.JPG)
 
 The central them of my design is the fact that I love the colour blue which becomes quite clear to most people that meet me. The colour scheme also had to resonate with my logo: 
 
-![Logo](./logo/logo_small.PNG)
+![Logo](./docs/logo_small.PNG)
 
 Finally I created the design mockup in Figma:
 
@@ -82,7 +82,7 @@ Figma Link: https://www.figma.com/file/gCn3gJpHz1IRFWgZJSjTH7ju/Portfolio-Websit
 
 I was given a week and a half to design and create my portfolio page and used Trello to keep track of my progress: 
 
-![Trelloboard](./img/trello_board.JPG)
+![Trelloboard](./docs/trello_board.JPG)
 
 ## Short Answer Q&A
 
