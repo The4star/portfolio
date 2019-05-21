@@ -170,7 +170,7 @@ main {
 .about-me-container {
     margin:20px;
     width: 80%;
-    max-height: 1200px;
+    max-height: 1500px;
     background: rgba(202, 223, 250, 0.8);
     border-radius: 10px;
     display: flex;
