@@ -18,11 +18,11 @@ The Purpose of my portfolio is to showcase various projects that i have worked o
 
 ## Functionality and features
 
-* The Site's them and content are all created from scratch by myeself
-Main page features a background video with an overlay colour
+* The Site's theme and content are all created from scratch by myeself.
+* Main page features a background video with an overlay colour.
 * Subtle animations are featured to highlight content and to make transitions between sections smooth but are not overbearing and do not become the central focus of the page. 
 * The colour scheme chosen is consistent throughout the entire site. 
-* Css Grid and Flex are used consistently through the site to make sure content is positioned properly
+* Css Grid and Flex are used consistently through the site to make sure content is positioned properly.
 * All content is fully mobile responsive and can be viewed comfortably on any device. 
 
 #Sitemap
@@ -72,7 +72,7 @@ I then chose the fonts:
 
 The central them of my design is the fact that I love the colour blue which becomes quite clear to most people that meet me. The colour scheme also had to resonate with my logo: 
 
-![Logo](./docs/logo_small.PNG)
+![Logo](./docs/logo_small.png)
 
 Finally I created the design mockup in Figma:
 
@@ -96,4 +96,4 @@ The internet is a series of computers around the world that are able to communic
 
 3. Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
 
-A: One of the most interesting developments in the internet world would have to be the 3g, 4g and soon to be 5g networks that allow us to access the internet from almost anywhere in the world from the palm of our hand. We now have access the the complete collective knowledge of the human race in the palm of our hand which is such an incredibly powerful tool to have at our displosal. Being able to almost instantly check a fact, find out where you're going or check out a rating for a restaurant makes a massive impact on how we interact with the world around us and is something that should not be taken for granted. 
+A: One of the most interesting developments in the internet world would have to be the 3g, 4g and soon to be 5g networks that allow us to access the internet from almost anywhere in the world from the palm of our hand. We now have access the the complete collective knowledge of the human race in almost any location which is such an incredibly powerful tool to have at our displosal. Being able to almost instantly check a fact, find out where you're going or find out a rating for a restaurant makes a massive impact on how we interact with the world around us and is something that should not be taken for granted. 
