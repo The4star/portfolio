@@ -42,6 +42,11 @@ a {
     color: var(--periwinkle);
 }
 
+.portlink {
+    text-decoration: none;
+    color: var(--airforce-blue);
+}
+
 header {
     position: fixed;
     z-index: 2;
