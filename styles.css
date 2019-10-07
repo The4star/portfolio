@@ -555,6 +555,10 @@ button:hover {
         object-position: 50% 50%;
     }
 
+    .skills-container {
+        grid-template-columns: repeat(auto-fit, minmax(70px, 140px));
+        grid-template-rows: repeat(auto-fit, 140px);
+    }
     /* Contact Page */
 
     #first-name, #last-name, #email, #contact-reason {
