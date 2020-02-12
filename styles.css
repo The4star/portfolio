@@ -93,13 +93,13 @@ li {
     font-family: 'Nunito', sans-serif;
     color: var(--periwinkle);
     font-size: 30px;
-    transition: .8s;
+    transition: .5s;
 }
 
 li:hover {
     background: rgba(160, 160, 160, 0.2);
-    font-size: 32px;
-    transition: .8s;
+    transform: scale(1.1);
+    transition: .5s;
     box-shadow: 2px 2px 4px black;
 }
 
@@ -248,19 +248,26 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: .3s;
+    transition: .5s;
 }
-.skill:hover {
+
+/* .skill:hover {
     display: flex;
     justify-content: center;
     align-items: center;
     background: #CADFFA;
-    transition: .3s;
+    transition: .5s;
+} */
+
+.skill:hover img {
+  filter: grayscale(0%);
+  transition: .5s;
 }
 
 .skill img {
     width: 70%;
     height: auto;
+    filter: grayscale(100%);
 }
 footer {
     max-height: 200px;
@@ -400,7 +407,7 @@ input[type=radio] {
     margin: 20px;
     cursor: pointer;
     background: rgba(160, 160, 160, 0.2);
-    font-size: 26px;
+    transform: scale(1.1);
     box-shadow: 2px 2px 4px black;
     transition: .8s;
   }
@@ -601,5 +608,11 @@ button:hover {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
     }
+
+    .skill img {
+      width: 70%;
+      height: auto;
+      filter: grayscale(0%);
+  }
 
 }
