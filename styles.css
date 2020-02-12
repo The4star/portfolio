@@ -233,7 +233,7 @@ main {
 .skills-container {
     margin: 20px;
     width: 80%;
-    max-height: 1400px;
+    max-height: 1600px;
     background: rgba(202, 223, 250, 0.8);
     border-radius: 10px;
     display: grid;
