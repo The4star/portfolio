@@ -261,12 +261,14 @@ main {
 
 .skill:hover img {
   filter: grayscale(0%);
+  opacity: 1;
   transition: .5s;
 }
 
 .skill img {
     width: 70%;
     height: auto;
+    opacity: .7;
     filter: grayscale(100%);
 }
 footer {
