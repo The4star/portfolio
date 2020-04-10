@@ -490,7 +490,7 @@ button:hover {
     color: var(--maastricht-blue);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
 }
@@ -500,12 +500,23 @@ button:hover {
     background: rgba(190, 218, 255, 0.8);
     transition: .8s;
 }
+.img-wrapper {
+  height: 225px;
+  width: 90%;
+  overflow: hidden;
+  border-radius: 10px;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0px;
+}
 
 .display-item img {
     width: 80%;
+    height: 100%;
+    width: auto;
     border-radius: 10px;
-    height: auto;
-    margin: 20px;
 }
 
 .display-item p {
